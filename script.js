@@ -3,3 +3,7 @@ function greet() {
     name = "World";
     console.log("Hello, " + name + "!");
 }
+
+function pageLoad(location) {
+    window.location.href = location;
+}
